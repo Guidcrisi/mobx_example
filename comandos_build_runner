@@ -1,0 +1,5 @@
+Para gerar os arquivos do codegen (arquivos com .g.dart) serão usados os seguintes comandos
+
+flutter packages pub run build_runner build -> Para gerar os arquivos pontualmente
+
+flutter packages pub run build_runner watch -> Este comando irá iniciar um serviço que ficara vigiando seu código, sempre que um novo arquivo precisar ser gerado, ele irá gerar de forma automatica
